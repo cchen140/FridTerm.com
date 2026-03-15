@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FridTerm | Free Flexible Grid Layout Terminal for macOS</title>
+  <meta
+    name="description"
+    content="FridTerm is a free macOS terminal app with a flexible drag-and-drop grid, instant theme customization, and layouts that adapt to the way you work."
+  >
+  <link rel="icon" type="image/svg+xml" href="./app-icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://fridterm.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="FridTerm | Flexible Layout Terminal for macOS">
+  <meta property="og:description" content="FridTerm is a macOS terminal app with a flexible drag-and-drop grid, instant theme customization, and layouts that adapt to the way you work.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fridterm.com/">
+  <meta property="og:image" content="https://fridterm.com/fridterm_demo_main.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FridTerm | Flexible Layout Terminal for macOS">
+  <meta name="twitter:description" content="A macOS terminal with a flexible drag-and-drop grid and instant theme customization.">
+  <meta name="twitter:image" content="https://fridterm.com/fridterm_demo_main.png">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "FridTerm",
+    "operatingSystem": "macOS",
+    "applicationCategory": "DeveloperApplication",
+    "description": "A free macOS terminal app with a flexible drag-and-drop grid, instant theme customization, and layouts that adapt to the way you work.",
+    "url": "https://fridterm.com"
+  }
+  </script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="FridTerm home">
+        <img class="brand-icon" src="./app-icon.svg" alt="FridTerm app icon">
+        <span class="brand-text">FridTerm - A free macOS Terminal</span>
+      </a>
+    </header>
+
+    <p>
+      <span style="display: inline-block; padding-left: 2rem;">From the author:</span><br>
+      <span style="display: inline-block; padding-left: 4rem;">
+        This free terminal app is not meant to be competing with all the prestigious terminal apps out there in the community.<br>
+        I built it to help my own multi-agent workflow and I add new features as I need, thanks to the help with AI.<br>
+        If this app happens to be of interest to you, feel free to send <a class="inline-highlight-link" href="https://fridterm.com/ask">feature request</a> to also make it a terminal app that suits your needs.
+      </span>
+    </p>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <h2>Arrange terminals with your mouse.</h2>
+          <p class="lede">
+            FridTerm supports a flexible grid system. Drag terminals
+            into place, resize them with the mouse, and build layouts that match your
+            workflow.
+          </p>
+          <div class="hero-actions">
+            <a
+              class="button button-primary"
+              href="https://github.com/cchen140/FridTerm/releases/download/v1.0/FridTerm-v1.0-20260315.dmg"
+              id="download"
+            >
+              Download v1.0 for macOS
+            </a>
+            <a class="button button-secondary" href="https://fridterm.com/ask">
+              Send a Feature Request
+            </a>
+          </div>
+        </div>
+
+        <figure class="hero-visual">
+          <img
+            src="./fridterm_demo_main.png"
+            alt="FridTerm showing multiple terminal panes arranged in a flexible grid layout."
+          >
+          <figcaption>
+            The main workspace: multiple shells, arranged visually, without being trapped in fixed splits.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="feature-grid" id="features">
+        <article class="feature-card feature-card-wide">
+          <div class="feature-copy">
+            <p class="section-kicker">Mouse-first control</p>
+            <h2>Resize and rebalance your workspace in seconds.</h2>
+            <p>
+              Pull boundaries, expand active work areas, and shrink background panes as your
+              focus changes. The interface makes spatial editing immediate and obvious.
+            </p>
+          </div>
+          <img
+            src="./fridterm_demo_adjust_size.png"
+            alt="FridTerm showing terminals being resized in the grid."
+          >
+        </article>
+
+        <article class="feature-card feature-card-wide">
+          <div class="feature-copy">
+            <p class="section-kicker">Live color customization</p>
+            <h2>Change theme colors and see the result instantly.</h2>
+            <p>
+              Tune your terminal appearance without guesswork. FridTerm lets you adjust theme
+              colors and immediately see them applied, making experimentation part of the workflow.
+            </p>
+          </div>
+          <img
+            src="./fridterm_demo_separate_themes.png"
+            alt="FridTerm showing separate terminal themes with different color settings."
+          >
+        </article>
+
+        <article class="feature-card feature-card-wide">
+          <div class="feature-copy">
+            <p class="section-kicker">Multiple display modes</p>
+            <h2>Move between Tab, Grid, and Frid modes.</h2>
+            <p>
+              FridTerm supports classic tabs, structured grid layouts, and the full Frid mode
+              so the same terminal session can be shown in the format that fits the moment.
+            </p>
+          </div>
+          <img
+            src="./fridterm_demo_tab_mode.png"
+            alt="FridTerm showing Tab, Grid, and Frid display modes in the top toolbar."
+          >
+        </article>
+        
+        <article class="feature-card feature-card-wide">
+          <div class="feature-copy">
+            <p class="section-kicker">Signature feature</p>
+            <h2>A flexible grid system that does not box your layouts.</h2>
+            <p>
+              FridTerm gives
+              you a workspace you can shape directly with the mouse. Move terminals where
+              they belong, create layouts around context, and keep related tasks visible at once.
+            </p>
+          </div>
+          <img
+            src="./fridterm_demo_2.png"
+            alt="FridTerm showing a complex terminal workspace arranged in a custom layout."
+          >
+        </article>
+      </section>
+
+    <footer class="footer">
+      <p>FridTerm for macOS.</p>
+      <p>
+        Have an idea, question, or workflow problem you want solved?
+        <a class="inline-highlight-link" href="https://fridterm.com/ask">Tell me here.</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
